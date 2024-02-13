@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                       https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.15.xsd">
+
+    <include file="sprint-1/sprint-1.xml" relativeToChangelogFile="true"/>
+    <include file="sprint-2/sprint-2.xml" relativeToChangelogFile="true"/>
+    <include file="sprint-3/sprint-3.xml" relativeToChangelogFile="true"/>
+    <include file="sprint-4/sprint-4.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
